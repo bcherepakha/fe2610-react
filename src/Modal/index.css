@@ -1,0 +1,117 @@
+.modal
+{
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content
+{
+    position: relative;
+
+    background: #FFFFFF;
+
+    width: 100%;
+    max-width: 620px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+}
+
+.modal__close
+{
+    position: absolute;
+    top: 21px;
+    right: 21px;
+}
+
+.modal__content-wrapper
+{
+    display: flex;
+
+    width: 100%;
+}
+
+.modal__content-column
+{
+    flex: 1 1 0;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.modal__image
+{
+    width: 100%;
+    display: block;
+}
+
+.modal__comment
+{
+    padding: 14px;
+}
+
+.modal__comment-date
+{
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #999999;
+}
+
+.modal__add-comment
+{
+    margin: 30px 0 32px;
+    width: 50%;
+
+    box-sizing: border-box;
+}
+
+.modal__input-wrapper
+{
+    display: block;
+    position: relative;
+
+    padding: 20px 0 0;
+}
+
+.modal__input-label
+{
+    position: absolute;
+    top: 0;
+    left: 11px;
+}
+
+.modal__input
+{
+    display: block;
+    width: 100%;
+    padding: 11px 8px;
+}
+
+.modal__submit
+{
+    background: #4997D0;
+    border-radius: 3px;
+
+    display: block;
+    width: 100%;
+
+    text-align: center;
+    color: #fff;
+
+    margin-top: 20px;
+}
