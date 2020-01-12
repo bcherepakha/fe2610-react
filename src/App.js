@@ -10,7 +10,7 @@ class App extends React.PureComponent {
     this.state = {
       currentDate: new Date(),
       images: null,
-      showImage: 237
+      showImage: null
     };
   }
 
@@ -27,7 +27,6 @@ class App extends React.PureComponent {
   }
 
   showImage = (imageId) => {
-    console.log(imageId);
     this.setState({showImage: imageId});
   }
 
